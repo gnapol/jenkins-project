@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh "pytest"
+                sh "/home/ubuntu/.local/bin/pytest"
             }
         }
     }
